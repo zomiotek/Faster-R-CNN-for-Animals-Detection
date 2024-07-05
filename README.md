@@ -1,2 +1,2 @@
-# Faster_R-CNN
+# Faster R-CNN implementation for PyTorch
  

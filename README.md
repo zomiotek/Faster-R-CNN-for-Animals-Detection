@@ -3,7 +3,7 @@ There are many implementations of Faster R-CNNs available in the Internet. Unfor
 
 ![image](https://github.com/user-attachments/assets/1f27bf69-b064-4c12-aece-b93db3912227)
 
-I used the ResNet152 backbone to build the Faster R-CNN model, because my previous experiments showed that it provides higher accuracy compared to other architectures (https://www.preprints.org/manuscript/202406.1090/v1). The entire learning process consists of 2 stages. In the first one, the learning speed is 1E-3, while in the second stage, this value is 1E-4. After each training epoch, the mean average precision (mAP) of the model is calculated based on the test set. At the same time, the weights obtained in a given era are saved, so that you can choose the best set of weights after the entire training process is completed.
+I used the ResNet152 backbone to build the Faster R-CNN model, because my previous experiments showed that it provides higher accuracy compared to other architectures (https://sigma-not.pl/publikacja-154369-2025-5.html). The entire learning process consists of 2 stages. In the first one, the learning speed is 1E-3, while in the second stage, this value is 1E-4. After each training epoch, the mean average precision (mAP) of the model is calculated based on the test set. At the same time, the weights obtained in a given era are saved, so that you can choose the best set of weights after the entire training process is completed.
 
 In order to perform training and evaluation, 3 batch files were prepared:
 
